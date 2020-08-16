@@ -15,16 +15,9 @@
   "options_ui": {
     "page": "options.html"
   },
-  "permissions": [
-    "experimental",
-    "storage",
-    "management",
-    "processes"
-  ],
+  "permissions": ["experimental", "storage", "management", "processes"],
   "background": {
-    "scripts": [
-      "background.js"
-    ],
+    "scripts": ["background.js"],
     "persistent": true
   }
 }
