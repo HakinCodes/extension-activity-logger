@@ -1,16 +1,11 @@
 {
   "browser_action": {
-    "default_icon": "ex_act.png",
+    "default_title": "Extension-Activity-Logger",
     "default_popup": "popup.html"
   },
   "description": "Logs various activities by all other browser extensions",
-  "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png"
-  },
   "manifest_version": 2,
   "name": "Extension-Activity-Logger",
-  "author": "Ajitesh Panda",
   "version": "0.0.1",
   "options_ui": {
     "page": "options.html"
@@ -18,6 +13,6 @@
   "permissions": ["experimental", "storage", "management", "processes"],
   "background": {
     "scripts": ["background.js"],
-    "persistent": true
+    "persistent": false
   }
 }
