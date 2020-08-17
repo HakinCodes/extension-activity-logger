@@ -1,0 +1,18 @@
+{
+  "browser_action": {
+    "default_title": "Extension-Activity-Logger",
+    "default_popup": "popup.html"
+  },
+  "description": "Logs various activities by all other browser extensions",
+  "manifest_version": 2,
+  "name": "Extension-Activity-Logger",
+  "version": "0.0.1",
+  "options_ui": {
+    "page": "options.html"
+  },
+  "permissions": ["experimental", "storage", "management", "processes"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
