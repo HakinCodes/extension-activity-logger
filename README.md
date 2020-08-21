@@ -2,7 +2,7 @@
 
 This project aims to build a webextension for Firefox browser, that can track other Web extension in the browser
 
-For contribution guideline please have a look [here](CONTRIBUTION.md)
+For contribution guidelines please have a look [here](CONTRIBUTION.md)
 
 ## Resources from Mozilla Developer Network to know more about how extension are made and functions: 
 
