@@ -3,6 +3,9 @@
     "default_title": "Extension-Activity-Logger",
     "default_popup": "popup.html"
   },
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
   "description": "Logs various activities by all other browser extensions",
   "manifest_version": 2,
   "name": "Extension-Activity-Logger",
